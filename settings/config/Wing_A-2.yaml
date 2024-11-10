@@ -1,0 +1,33 @@
+# DATA_VERSIONSとDATA_VERSION_FOLDER_NAMEは長すぎるとエラーが出ます。
+DATA_VERSIONS:
+- "Wing_A-2_1"
+- "Wing_A-2_2"
+DATA_VERSION_FOLDER_NAME: "Wing_A-2"
+SG_COLORS:
+- "#00FF00"    # Green
+- "#007FFF"    # Azure
+- "#0000FF"    # Blue
+- "#7F00FF"    # Violet
+- "#FF0000"    # Red
+- "#FF66CC"    # Rose pink
+- "#FF7F00"    # Orange
+EN_COLORS: ["#000000"]
+CLASSES_COLORS:
+- "#00FF00"    # Green
+- "#007FFF"    # Azure
+- "#0000FF"    # Blue
+- "#7F00FF"    # Violet
+- "#FF0000"    # Red
+- "#FF66CC"    # Rose pink
+- "#FF7F00"    # Orange
+- "#000000"    # Black
+DATA_COLUMN_NAMES: ["SG1","SG2","SG3","SG4","SG5","SG6","SG7","EN1"]
+CHANNEL_OPTIONS: ["1","2","3","4","5","6","12","3456"]
+WIND_ENVIRONMENTS: ["0deg","15deg","30deg","45deg","60deg","75deg","90deg","No Wind"]
+ENCODER_RESOLUTION: "512"
+FLAPPING_FREQUENCY: "12"
+FREQUENCY_S: "10000"
+TIME_S: "10"
+DATA_LOGGER_TYPE: "EDX-10A"
+NO_FLAPPING_DATA_FILE_NAME: ""
+MODEL_FILE_NAME: "1_CNN"
