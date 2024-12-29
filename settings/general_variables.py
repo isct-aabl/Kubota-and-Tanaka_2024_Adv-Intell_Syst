@@ -4,8 +4,9 @@ import os
 import yaml
 
 """
-setting_yaml_file_base だけファイルに合わせて変更
+Update the value of `setting_yaml_file_base` according to the specific wing you want to measure.
 """
+
 setting_yaml_file_base = "Wing_A"
 # setting_yaml_file_base = "Wing_B"
 # setting_yaml_file_base = "Wing_A-2"
